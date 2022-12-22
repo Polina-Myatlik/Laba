@@ -1,0 +1,14 @@
+Задание 2.1
+
+функция(X, Z) :- Z is sin(X)^2 + cos(X)^2.
+
+Задание 2.2
+
+import math
+
+def z(x):
+    return math.sin(x)**2 + math.cos(x)**2
+
+x = int(input())
+z = z(x)
+print(z)
